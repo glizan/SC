@@ -142,7 +142,7 @@
 
 			// Hide on click.
 				if (config.hideOnClick) {
-
+					console.log("test2");
 					$this.find('a')
 						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
 
