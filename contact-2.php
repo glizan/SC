@@ -34,8 +34,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 // ReCaptch Secret
 //$recaptchaSecret = '6Lfd2VYgAAAAAMhgm3VNg_5hLBNNWjPJfONEGSE7'; //localhost secrete key
-// $recaptchaSecret = '6LfDdJUUAAAAAPNZE62mSlXRQl7bIVWtH0HIKx-g'; //old test secrete key
-$recaptchaSecret = '6LefurgUAAAAAK9E0LJJqFiUO5D0yFXZ6kEtPL_w';  // live secret key
+$recaptchaSecret = '${CAPTCHA_SECRET}';  // live secret key
 
 
 /*
